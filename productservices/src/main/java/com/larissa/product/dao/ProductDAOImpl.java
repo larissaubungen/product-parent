@@ -18,14 +18,4 @@ public class ProductDAOImpl implements ProductDAO {
 	public Product read(int id) {
 		return products.get(id);
 	}
-
-	/*
-	 * @Override public void update(Product product) {
-	 * 
-	 * }
-	 * 
-	 * @Override public void delete(int id) {
-	 * 
-	 * }
-	 */
 }
