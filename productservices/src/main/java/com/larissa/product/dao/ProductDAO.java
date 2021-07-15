@@ -7,7 +7,9 @@ public interface ProductDAO {
 	
 	Product read(int id);
 	
-	void update(Product product);
-	
-	void delete(int id);
+	/*
+	 * void update(Product product);
+	 * 
+	 * void delete(int id);
+	 */
 }
